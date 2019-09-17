@@ -38,9 +38,19 @@ those four files in four states.
 In this space, type the sequence of commands you used to achieve the final 
 state of all four files:
 
-
-
-
+echo.>unmodified.txt
+echo.>modified.txt
+echo.>staged.txt
+echo.>untracked.txt
+git add unmodified.txt
+git add modified.txt
+git add staged.txt
+git commit -m "added modified, unmodified, and staged"
+modified.txt
+//edited text in modified.txt
+staged.txt
+//edited text in staged.txt
+git add staged.txt
 
 
 %%%%%%%%%%%%%%% Working with GitHub %%%%%%%%%%%%%%%%%%%%%%
@@ -50,7 +60,7 @@ state of all four files:
 - Create a Github account  (at www.github.com (Links to an external 
 site.)), write down your username below.
 
-
+michaelyacucci
 
 - Clone this repository to your local machine: 
 https://github.com/nmerrill67/cisc275-fall2019-first-git (DO NOT FORK 
@@ -63,7 +73,7 @@ fall2019-first-git".
 
 Paste the URL of your repository here:
 
-
+https://github.com/michaelyacucci/cisc275--fall2019-first-git.git
 
 Back in your machine, create a new local repository:
 
