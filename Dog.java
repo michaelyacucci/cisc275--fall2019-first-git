@@ -1,12 +1,10 @@
-public class Dog{
+public class Dog extends Animal{
 
-	private
 	String name;
-	int legs;
 
 	public Dog(String s, int l){
+		super(l);
 		name = s;
-		legs = l;
 	}
 
 	public void setName(String s){
@@ -14,7 +12,7 @@ public class Dog{
 	}
 
 	public void setLegs(int l){
-		legs = l;
+		super.legs = l;
 	}
 
 	public String getName(){
@@ -22,7 +20,7 @@ public class Dog{
 	}
 
 	public int getLegs(){
-		return legs;
+		return super.getLegs();
 	}
 
 }
