@@ -3,4 +3,8 @@
 
 2. What five objects are created in the main?
 
+Three instances of Dog, an instance of ArrayList, and an instance of Comparator.
+
 3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
+
+The comparator is defined in Collections and used to sort instances of Animal.
